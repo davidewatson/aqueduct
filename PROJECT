@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: aqueduct
 repo: github.com/davidewatson/aqueduct
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: fb.com
+  group: aqueduct
+  kind: KeychainSecret
+  path: github.com/davidewatson/aqueduct/api/v1
+  version: v1
 version: "3"
