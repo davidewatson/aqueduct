@@ -1,0 +1,6 @@
+domain: fb.com
+layout:
+- go.kubebuilder.io/v3
+projectName: aqueduct
+repo: github.com/davidewatson/aqueduct
+version: "3"
