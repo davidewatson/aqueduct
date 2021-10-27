@@ -1,0 +1,7 @@
+apiVersion: aqueduct.fb.com/v1
+kind: NamespaceIdentity
+metadata:
+  name: namespaceidentity-sample
+spec:
+  # Add fields here
+  foo: bar
