@@ -8,4 +8,3 @@ k8s_yaml(yaml)
 
 k8s_resource('aqueduct-controller-manager',
     port_forwards=8000)
-
