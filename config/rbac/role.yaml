@@ -32,3 +32,29 @@ rules:
   - get
   - patch
   - update
+- apiGroups:
+  - aqueduct.fb.com
+  resources:
+  - namespaceidentities
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - aqueduct.fb.com
+  resources:
+  - namespaceidentities/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - aqueduct.fb.com
+  resources:
+  - namespaceidentities/status
+  verbs:
+  - get
+  - patch
+  - update
